@@ -31,7 +31,7 @@ button.addEventListener('click',function (){
         humidity.innerHTML = data['main']['humidity'];
         pressure.innerHTML = data['main']['pressure'];
 
-        setTimeout(function(){ alert("Refresh the page");window.location.reload(); },1000);        
+        setTimeout(function(){ alert("Refresh the page");window.location.reload(); },4000);        
    
     })
     .catch(err => {
